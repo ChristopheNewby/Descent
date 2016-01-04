@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "SweptMove",
+		uint64 ResourceId = 569d3496a34f32d9,
+	},
+},
