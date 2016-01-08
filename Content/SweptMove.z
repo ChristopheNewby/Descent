@@ -11,8 +11,7 @@ class SweptMove : ZilchComponent
         if (Zero.Keyboard.KeyIsPressed(Keys.Space))
         {
             this.Owner.SweptController.Jump();
-        }
-        
+        }  
         this.Owner.SweptController.Update(movement, event.Dt); 
     }
 }

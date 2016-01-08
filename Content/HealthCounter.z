@@ -1,8 +1,8 @@
 class HealthCounter : ZilchComponent
 {
     [Property]
-    var Health : Integer = 5;
-    var Text : String = "Health: 5";
+    var Health : Integer = 10;
+    var Text : String = "Life ~ 10";
     var Timer : Real = 0;
     
     function Initialize(init : CogInitializer)
@@ -14,7 +14,7 @@ class HealthCounter : ZilchComponent
     {
         this.Timer += event.Dt;
         
-        var temp = "Health: `this.Health`";
+        var temp = "Life ~ `this.Health`";
         this.Owner.SpriteText.Text = temp;
         if(this.Health < 0)
         {

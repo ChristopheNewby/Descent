@@ -1,0 +1,15 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "LostScript",
+		uint64 ResourceId = 5670d91ab31f432d,
+	},
+	ContentTags = 
+	{
+		Array Tags = 
+		[
+			"Package9001",
+		],
+	},
+},
