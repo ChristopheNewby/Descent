@@ -15,7 +15,7 @@ Cog =
 	Transform = 
 	{
 		Vec3 Translation = [5.99139357, 47.0042343, 0],
-		Vec3 Scale = [1, 1, 1],
+		Vec3 Scale = [1, 1, 5],
 		Quat Rotation = [0, 0, 0, 1],
 	},
 	Sprite = 
@@ -103,6 +103,9 @@ Cog =
 		float AirTraction = 1,
 	},
 	CustomCollisionEventTracker = 
+	{
+	},
+	PlayerGhost = 
 	{
 	},
 },
